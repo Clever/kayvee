@@ -14,3 +14,8 @@ Each test includes:
 - `title` - describes what the test covers
 - `input` - arguments to pass to the tested method
 - `output` - expected output string, given above input
+
+## Changelog
+
+v0.0.1 - Initial version
+v0.0.2 - 2014-10-10 - `format` test for "allows empty data" 
