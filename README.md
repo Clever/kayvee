@@ -17,5 +17,6 @@ Each test includes:
 
 ## Changelog
 
-v0.0.1 - Initial version
-v0.0.2 - 2014-10-10 - `format` test for "allows empty data" 
+- v0.0.1 - Initial version
+- v0.0.2 - 2014-10-10 - `format` test for "allows empty data"
+- v0.0.3 - 2014-10-10 - `format` test cases for single-quote, double-quote
