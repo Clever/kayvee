@@ -20,3 +20,4 @@ Each test includes:
 - v0.0.1 - Initial version
 - v0.0.2 - 2014-10-10 - `format` test for "allows empty data"
 - v0.0.3 - 2014-10-10 - `format` test cases for single-quote, double-quote
+- v1.0.0 - 2014-12-09 - all formatting functions output stringified JSON - this an intermediate approach to ease string parsing and forwarding within Heka.
