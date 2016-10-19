@@ -1,0 +1,7 @@
+routes:
+  rule-one:
+    matchers:
+      source: [ "year" ]
+    output:
+      type: "analytics"
+      series: "prod-year"
