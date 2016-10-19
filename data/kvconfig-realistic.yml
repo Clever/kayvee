@@ -1,21 +1,21 @@
 routes:
   rule-one:
     matchers:
-      source: apple
+      source: [ "apple" ]
       title: [ "user_not_authorized_for_app" ]
     output:
       type: "analytics"
       series: "prod_apple"
   rule-two:
     matchers:
-      source: apple
+      source: [ "apple" ]
       title: [ "authorize_error" ]
     output:
       type: "analytics"
       series: "prod_apple"
   rule-three:
     matchers:
-      source: "soup"
+      source: [ "soup" ]
       title: [ "request-finished" ]
     output:
       type: "metrics"
@@ -23,7 +23,7 @@ routes:
       dimensions: [ "env", "Hostname" ]
   rule-four:
     matchers:
-      source: "diamond"
+      source: [ "diamond" ]
       title: [ "login-code-generated" ]
     output:
       type: "metrics"
@@ -31,7 +31,7 @@ routes:
       dimensions: [ "env", "Hostname" ]
   rule-five:
     matchers:
-      source: "bloop"
+      source: [ "bloop" ]
       title: [ "job-log" ]
     output:
       type: "metrics"
