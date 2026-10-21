@@ -3,9 +3,9 @@ kind: Component
 metadata:
   name: kayvee
   description: Kayvee translates an object into a human and machine parseable string
-  owner: unknown
+  owner: eng-infra
 spec:
   type: unknown
   lifecycle: production
-  owner: unknown
+  owner: eng-infra
   system: Clever
